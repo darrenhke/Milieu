@@ -106,7 +106,7 @@ createAndShuffleCards()
         let valueCardsPerRound = []
           players.map(user => {
               valueCardsPerRound.push(shuffledCards[0]) 
-              //Alternative Scoring System comment line 117 and uncomment line line 110
+              //Alternative Scoring System comment line 117 and uncomment line 110
               //user.score += parseFloat(shuffledCards[0])
               shuffledCards.shift()
           })
